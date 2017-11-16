@@ -670,7 +670,7 @@ static void *MRProgressOverlayViewObservationContext = &MRProgressOverlayViewObs
     const CGFloat dialogPadding = 15;
     const CGFloat modePadding = 30;
     const CGFloat dialogMargin = 10;
-    const CGFloat dialogMinWidth = 150;
+    const CGFloat dialogMinWidth = 100;
     
     const BOOL hasSmallIndicator = self.mode == MRProgressOverlayViewModeIndeterminateSmall
         || self.mode == MRProgressOverlayViewModeIndeterminateSmallDefault;
